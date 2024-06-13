@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="container">
+    	<div class="search-container">
+        	<input type="text" id="location-input" placeholder="Enter location">
+        	<button id="search-btn">Search</button>
+        	<button id="current-location-btn">Use Current Location</button>
+    	</div>
+    	<div class="weather-container">
+        	<div id="current-weather" class="weather-card">
+            	<h3 id="current-location"></h3>
+            	<div class="weather-details">
+                	<img id="current-icon" class="weather-icon" alt="Weather Icon">
+                	<div>
+                    	<p id="current-condition"></p>
+                    	<p id="current-date"></p>
+                    	<p id="current-temp"></p>
+                    	<p id="current-humidity"></p>
+                    	<p id="current-wind"></p>
+                	</div>
+            	</div>
+        	</div>
+        	<div id="forecast-container" class="forecast">
+            	<div id="forecast-day1" class="weather-card">
+                	<div class="weather-details">
+                    	<img id="forecast-icon1" class="weather-icon" alt="Weather Icon">
+                    	<div>
+                        	<p id="forecast-date1"></p>
+                        	<p id="forecast-condition1"></p>
+                        	<p id="forecast-temp1"></p>
+                        	<p id="forecast-humidity1"></p>
+                        	<p id="forecast-wind1"></p>
+                    	</div>
+                	</div>
+            	</div>
+            	<div id="forecast-day2" class="weather-card">
+                	<div class="weather-details">
+                    	<img id="forecast-icon2" class="weather-icon" alt="Weather Icon">
+                    	<div>
+                        	<p id="forecast-date2"></p>
+                        	<p id="forecast-condition2"></p>
+                        	<p id="forecast-temp2"></p>
+                        	<p id="forecast-humidity2"></p>
+                        	<p id="forecast-wind2"></p>
+                    	</div>
+                	</div>
+            	</div>
+            	<div id="forecast-day3" class="weather-card">
+                	<div class="weather-details">
+                    	<img id="forecast-icon3" class="weather-icon" alt="Weather Icon">
+                    	<div>
+                        	<p id="forecast-date3"></p>
+                        	<p id="forecast-condition3"></p>
+                        	<p id="forecast-temp3"></p>
+                        	<p id="forecast-humidity3"></p>
+                        	<p id="forecast-wind3"></p>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
